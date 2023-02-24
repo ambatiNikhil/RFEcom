@@ -47,7 +47,7 @@ const ProductDetails = () => {
      return () => {
       dispatch(removeSelectedProduct())
      }
-  } , [productId])
+  }, [productId])
 
   
   const handleBack = () => {
