@@ -1,0 +1,27 @@
+.productBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+.imageSize{
+   height: 150px;
+   width: 150px;
+}
+
+.containerBox{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 35px;
+}
