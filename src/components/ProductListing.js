@@ -15,7 +15,7 @@ const ProductListing = () => {
     }
     useEffect(() => {
         fetchProducts()
-    } , []);
+    });
 
   return (
     <div>
